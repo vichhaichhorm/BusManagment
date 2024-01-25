@@ -21,6 +21,9 @@ public class Main {
          this.course=course;
          this.score=score;
       }
+      public void printGrade(){
+         System.out.println(score);
+      }
    }
    public static void main(String[] args) {
 
